@@ -9,7 +9,7 @@ def to_markdown(text):
     return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 # Configuration of the API key
-GOOGLE_API_KEY = "AIzaSyANx-EUFdwFljWjpnyQsS_u-nd9gVBm0BA"
+GOOGLE_API_KEY = "your_api_key"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the model with a system instruction
